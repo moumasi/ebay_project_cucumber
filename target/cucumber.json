@@ -1,0 +1,52 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 26,
+        "name": "Verify to find class frame",
+        "description": "",
+        "id": "it-is-dropdown-and-select-,-search-functionality;verify-to-find-class-frame",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5088899500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Open ebay application",
+            "match": {
+              "location": "stepclass.open_ebay_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3338370100,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Click Help",
+            "match": {
+              "location": "stepclass.click_Help()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 25,
+            "name": "@Blue"
+          }
+        ]
+      }
+    ],
+    "name": "It is Dropdown and select , search functionality",
+    "description": "",
+    "id": "it-is-dropdown-and-select-,-search-functionality",
+    "keyword": "Feature",
+    "uri": "ebay.feature"
+  }
+]
